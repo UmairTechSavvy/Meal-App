@@ -1,21 +1,9 @@
 {
-
-  "routes":[
-
-{
-
-"src": "/",
-"dest":"/"
-
-}
-
-
-
-
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "/(.*)",
+      "dest": "/src/index.js"
+    }
   ]
-
-
-
-
-
 }
